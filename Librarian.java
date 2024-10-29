@@ -78,7 +78,7 @@ public class Librarian {
 
 		// Display books
 		System.out.println("ABC Library");
-		int total = 0;
+		double total = 0;
 
 		System.out.printf("%-20s | %-20s | %-20s | %-10s | %-10s%n",
 				"Title", "Author", "Publisher", "Price", "Pages");
