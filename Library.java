@@ -58,7 +58,6 @@ public class Library {
 			sc.nextLine();
 			check = sc.nextLine();
 			System.out.println("=".repeat(90)); // Line over header
-
 		}
 		// calculate vars
 		for (Book book : books) {
