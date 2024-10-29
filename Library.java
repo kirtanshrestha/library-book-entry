@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Librarian {
+public class Library {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -58,7 +58,6 @@ public class Librarian {
 			sc.nextLine();
 			check = sc.nextLine();
 			System.out.println("=".repeat(90)); // Line over header
-
 		}
 		// calculate vars
 		for (Book book : books) {
@@ -111,7 +110,7 @@ public class Librarian {
 		System.out.println(
 				"'" + mostThinBook.getTitle() + "'" + " has the lowest number of pages: " + mostThinBook.getPages());
 		System.out.println("The average price all books is " + total / count);
-
+		sc.close();
 	}
 
 }
