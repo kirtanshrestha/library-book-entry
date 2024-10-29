@@ -110,7 +110,7 @@ public class Library {
 		System.out.println(
 				"'" + mostThinBook.getTitle() + "'" + " has the lowest number of pages: " + mostThinBook.getPages());
 		System.out.println("The average price all books is " + total / count);
-
+		sc.close();
 	}
 
 }
